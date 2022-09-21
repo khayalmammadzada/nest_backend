@@ -1,27 +1,26 @@
 ﻿@{
     ViewData["Title"] = "Vendor Details";
 }
-
+@model Vendor
 <main class="main">
     <div class="page-header breadcrumb-wrap">
         <div class="container">
             <div class="breadcrumb">
-                <a href="index.html" rel="nofollow"><i class="fi-rs-home mr-5"></i>Home</a>
-                <span></span> Store <span></span> Nest Food
+                <span></span> Satıcı <span></span> @Model.Name
             </div>
         </div>
     </div>
     <div class="container mb-30">
-        <div class="archive-header-3 mt-30 mb-80" style="background-image: url(../../assets/imgs/vendor/vendor-header-bg.png)">
+        <div class="archive-header-3 mt-30 mb-80" style="background-image: url(../../assets/imgs/vendor/@Model.BackgroundImageUrl); background-position:center;background-size:100%">
             <div class="archive-header-3-inner">
                 <div class="vendor-logo mr-50">
-                    <img src="~/assets/imgs/vendor/vendor-17.png" alt="" />
+                    <img src="~/assets/imgs/vendor/@Model.ProfileImageUrl" alt="" />
                 </div>
                 <div class="vendor-content">
                     <div class="product-category">
-                        <span class="text-muted">Since 2012</span>
+                        <span class="text-muted">Since @Model.CreatedYear</span>
                     </div>
-                    <h3 class="mb-5 text-white"><a href="vendor-details-1.html" class="text-white">Nest Food.,Ltd</a></h3>
+                    <h3 class="mb-5 text-white"><a href="vendor-details-1.html" class="text-white">@Model.Name</a></h3>
                     <div class="product-rate-cover mb-15">
                         <div class="product-rate d-inline-block">
                             <div class="product-rating" style="width: 90%"></div>
@@ -32,14 +31,14 @@
                     <div class="row">
                         <div class="col-lg-4">
                             <div class="vendor-des mb-15">
-                                <p class="font-sm text-white">Got a smooth, buttery spread in your fridge? Chances are good that it's Good Chef. This brand made Lionto's list of the most popular grocery brands across the country.</p>
+                                <p class="font-sm text-white">@Model.Description<p>
                             </div>
                         </div>
                         <div class="col-lg-3">
                             <div class="vendor-info text-white mb-15">
                                 <ul class="font-sm">
-                                    <li><img class="mr-5" src="~/assets/imgs/theme/icons/icon-location.svg" alt="" /><strong>Address: </strong> <span>5171 W Campbell Ave undefined, Utah 53127 United States</span></li>
-                                    <li><img class="mr-5" src="~/assets/imgs/theme/icons/icon-contact.svg" alt="" /><strong>Call Us:</strong><span>(+91) - 540-025-124553</span></li>
+                                    <li><img class="mr-5" src="~/assets/imgs/theme/icons/icon-location.svg" alt="" /><strong>Address: </strong> <span>@Model.Address</span></li>
+                                    <li><img class="mr-5" src="~/assets/imgs/theme/icons/icon-contact.svg" alt="" /><strong>Call Us:</strong><span>@Model.Number</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -605,4 +604,3 @@
         </div>
     </div>
 </main>
-

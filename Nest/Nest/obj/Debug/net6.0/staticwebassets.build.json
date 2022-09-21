@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rKi62D7mTpzacMqKFKcQ703cqjO8Sc8mFEPkepqckuI=",
+  "Hash": "kKBGEh38phpjtiHTDWtHbOl24nCZnnAiH1Hz0hnw2sQ=",
   "Source": "Nest",
   "BasePath": "_content/Nest",
   "Mode": "Default",
@@ -49,6 +49,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/khayalmammadzada/Desktop/nest_backend/Nest/Nest/obj/Debug/net6.0/scopedcss/projectbundle/Nest.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/khayalmammadzada/Desktop/nest_backend/Nest/Nest/wwwroot/.DS_Store",
+      "SourceId": "Nest",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/khayalmammadzada/Desktop/nest_backend/Nest/Nest/wwwroot/",
+      "BasePath": "_content/Nest",
+      "RelativePath": ".DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/.DS_Store"
+    },
+    {
+      "Identity": "/Users/khayalmammadzada/Desktop/nest_backend/Nest/Nest/wwwroot/assets/.DS_Store",
+      "SourceId": "Nest",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/khayalmammadzada/Desktop/nest_backend/Nest/Nest/wwwroot/",
+      "BasePath": "_content/Nest",
+      "RelativePath": "assets/.DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/.DS_Store"
     },
     {
       "Identity": "/Users/khayalmammadzada/Desktop/nest_backend/Nest/Nest/wwwroot/assets/css/main.css",
@@ -355,6 +389,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/fonts/uicons/uicons-regular-straight.woff2"
+    },
+    {
+      "Identity": "/Users/khayalmammadzada/Desktop/nest_backend/Nest/Nest/wwwroot/assets/imgs/.DS_Store",
+      "SourceId": "Nest",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/khayalmammadzada/Desktop/nest_backend/Nest/Nest/wwwroot/",
+      "BasePath": "_content/Nest",
+      "RelativePath": "assets/imgs/.DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/imgs/.DS_Store"
     },
     {
       "Identity": "/Users/khayalmammadzada/Desktop/nest_backend/Nest/Nest/wwwroot/assets/imgs/banner/banner-1.png",

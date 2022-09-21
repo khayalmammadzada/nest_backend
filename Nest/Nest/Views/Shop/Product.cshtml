@@ -1,7 +1,7 @@
 ﻿@{
     ViewData["Title"] = "Product Detail Page";
 }
-
+@model ShopVM 
 <main class="main">
     <div class="page-header breadcrumb-wrap">
         <div class="container">
@@ -112,7 +112,11 @@
                                             </ul>
                                             <ul class="float-start">
                                                 <li class="mb-5">SKU: <a href="#">FWM15VKT</a></li>
-                                                <li class="mb-5">Tags: <a href="#" rel="tag">Snack</a>, <a href="#" rel="tag">Organic</a>, <a href="#" rel="tag">Brown</a></li>
+                                                @foreach(var item in Model.Tags)
+                                                    {
+                                                       <li class="mb-5">Tags: <a href="#" rel="tag">Snack</a>, <a href="#" rel="tag">Organic</a>, <a href="#" rel="tag">@item.Name</a></li>
+                                                    }
+                                                
                                                 <li>Stock:<span class="in-stock text-brand ml-5">8 Items In Stock</span></li>
                                             </ul>
                                         </div>
